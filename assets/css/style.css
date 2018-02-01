@@ -15,10 +15,36 @@ body {
     left: 0;
     z-index: 5;
 }
-hr, p, h2, h3, h4 {
+hr {
     font-family: 'Georgia', Times, Times new roman, serif;
     color: #777777;
 }
+h1 {
+    font-family: 'Georgia', Times, Times new roman, serif;
+    color: #white;
+    font-size: 40px;
+}
+p {
+    font-family: 'Georgia', Times, Times new roman, serif;
+    color: #777777;
+    font-size: 15px;
+}
+h2 {
+    font-family: 'Georgia', Times, Times new roman, serif;
+    color: #777777;
+    font-size: 30px;
+}
+h3 {
+    font-family: 'Georgia', Times, Times new roman, serif;
+    color: #777777;
+    font-size: 25px;
+}
+h4 {
+    font-family: 'Georgia', Times, Times new roman, serif;
+    color: #777777;
+    font-size: 20px;
+}
+
 .nav-set {
     background-color: #ffffff;
     width: 100%;
@@ -46,15 +72,20 @@ hr, p, h2, h3, h4 {
     right: 20px;
     float: right;
     text-align: center;
+    padding: 10px;
 }
 .nav1 {
     margin-right: 150px;
+    border-left: 2px solid chartreuse;
 }
 .nav2 {
     margin-right: 50px;
+    border-right: 2px solid chartreuse;
+    border-left: 2px solid chartreuse;
 }
 .nav3 {
     margin-right: 50px;
+    border-right: 2px solid chartreuse;
 }
 .contentbody {
     clear: both;
