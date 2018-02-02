@@ -27,7 +27,8 @@ h1 {
 p {
     font-family: 'Georgia', Times, Times new roman, serif;
     color: #777777;
-    font-size: 15px;
+    font-size: 16px;
+    line-height: 24px;
 }
 h2 {
     font-family: 'Georgia', Times, Times new roman, serif;
@@ -74,18 +75,13 @@ h4 {
     text-align: center;
     padding: 10px;
 }
+
 .nav1 {
     margin-right: 150px;
     border-left: 2px solid chartreuse;
 }
 .nav2 {
-    margin-right: 50px;
-    border-right: 2px solid chartreuse;
     border-left: 2px solid chartreuse;
-}
-.nav3 {
-    margin-right: 50px;
-    border-right: 2px solid chartreuse;
 }
 .contentbody {
     clear: both;
@@ -97,7 +93,7 @@ h4 {
     border: #ffffff;
     width: 650px;
     padding: 20px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     margin-top: 30px;
     margin-left: 130px;
     margin-inline-start: 140px;
@@ -137,7 +133,7 @@ figcaption {
     margin-top: 5px;
     margin-bottom: 5px;
     padding: 10px;
-    height: 150px;
+    height: 100px;
     width: 95%;
 }
 h5 {
@@ -145,10 +141,10 @@ h5 {
 }
 .submit {
     background-color: teal;
-    width: 80px;
     color: #ffffff;
     padding: 15px;
     text-align: center;
+    font-size: 30px;
 }
 .sidebar {
     background-color: #ffffff;
